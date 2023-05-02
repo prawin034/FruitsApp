@@ -8,19 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("isOnBoarding") var isOnBoarding : Bool = false
+    var fruits: [Fruit] = fruitData
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+        NavigationStack{
+            
+            List {
+                ForEach(fruits){item in
+                    
+                    FruitRowView(fruit: item)
+                }
+            }
+            .listStyle(GroupedListStyle())
+            
+            
+            .navigationTitle("Fruits Row View")
+            .navigationBarTitleDisplayMode(.inline)
+            //.navigationBarItems(leading: Text("back"))
+            .toolbar {
+                Text("Back")
+                    .font(.headline)
+                    .foregroundColor(.secondary)
+                    .fontWeight(.bold)
+                    .onTapGesture {
+                        isOnBoarding = true
+                    }
+            }
+        }//end navigationstack
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView( fruits: fruitData)
     }
 }

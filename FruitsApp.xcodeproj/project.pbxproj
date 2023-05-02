@@ -16,6 +16,7 @@
 		3C3FE1972A01166600A1EF6D /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FE1962A01166600A1EF6D /* OnBoardingView.swift */; };
 		3C3FE19A2A011EBB00A1EF6D /* FruitModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FE1992A011EBB00A1EF6D /* FruitModal.swift */; };
 		3C3FE19D2A01237A00A1EF6D /* FrutiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FE19C2A01237A00A1EF6D /* FrutiData.swift */; };
+		3C3FE1A02A0148EF00A1EF6D /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FE19F2A0148EF00A1EF6D /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3C3FE1962A01166600A1EF6D /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		3C3FE1992A011EBB00A1EF6D /* FruitModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModal.swift; sourceTree = "<group>"; };
 		3C3FE19C2A01237A00A1EF6D /* FrutiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutiData.swift; sourceTree = "<group>"; };
+		3C3FE19F2A0148EF00A1EF6D /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				3C3FE1922A00EFBB00A1EF6D /* FruitCardView.swift */,
 				3C3FE1942A00FD4900A1EF6D /* CustomBtn.swift */,
+				3C3FE19F2A0148EF00A1EF6D /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			files = (
 				3C3FE1932A00EFBB00A1EF6D /* FruitCardView.swift in Sources */,
 				3C3FE1952A00FD4900A1EF6D /* CustomBtn.swift in Sources */,
+				3C3FE1A02A0148EF00A1EF6D /* FruitRowView.swift in Sources */,
 				3C3FE19A2A011EBB00A1EF6D /* FruitModal.swift in Sources */,
 				3C3FE1842A00E0B100A1EF6D /* ContentView.swift in Sources */,
 				3C3FE19D2A01237A00A1EF6D /* FrutiData.swift in Sources */,

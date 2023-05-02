@@ -9,12 +9,13 @@ import SwiftUI
 
 struct CustomBtn: View {
     //MARK: PROPERTIES
+    @AppStorage("isOnBoarding") var isOnBoarding : Bool?
     
     //MARK: BODY
     var body: some View {
          
         Button {
-            
+            isOnBoarding = false
         } label: {
             HStack(alignment:.center, spacing:5 ) {
                 Text("Start")
