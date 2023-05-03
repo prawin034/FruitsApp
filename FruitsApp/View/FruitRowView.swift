@@ -27,15 +27,19 @@ struct FruitRowView: View {
                 )
                 .cornerRadius(12)
                 .padding()
+            Spacer()
             
             
-            VStack(alignment:.leading,spacing: 5) {
-                Text(fruit.title)
-                    .font(.headline)
-                    .fontWeight(.bold)
-                Text(fruit.headline)
-                    .font(.caption)
-                    .foregroundColor(.secondary)
+            HStack {
+                VStack(alignment:.leading,spacing: 5) {
+                    Text(fruit.title)
+                        .font(.headline)
+                        .fontWeight(.bold)
+                  
+                    Text(fruit.headline)
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                }
             }
               
             Spacer()
@@ -49,7 +53,7 @@ struct FruitRowView: View {
    //MARK: PREVIEWS
 struct FruitRowView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitRowView(fruit: fruitData[0])
+        FruitRowView(fruit: fruitData[2])
             .previewLayout(.sizeThatFits)
             .padding()
     }

@@ -49,6 +49,7 @@ struct FruitCardView: View {
                     .font(.headline)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
+                    .padding(.horizontal,20)
                 
                 
                 //4 FRUIT: START BUTTON
@@ -66,7 +67,8 @@ struct FruitCardView: View {
             LinearGradient(gradient:  Gradient(colors: fruit.gradientColors), startPoint: .leading, endPoint: .trailing)
                 .cornerRadius(20)
         )
-        .padding(.horizontal,10)
+        .ignoresSafeArea()
+       
     }
     
     
@@ -77,7 +79,7 @@ struct FruitCardView: View {
 
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitCardView(fruit: fruitData[2])
-            .previewLayout(.fixed(width: 320, height: 640))
+        FruitCardView(fruit: fruitData[1])
+//            .previewLayout(.fixed(width: 320, height: 640))
     }
 }

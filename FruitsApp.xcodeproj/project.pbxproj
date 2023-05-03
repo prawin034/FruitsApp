@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3FDA432A022331007DBF75 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FDA422A022331007DBF75 /* FruitDetailView.swift */; };
+		3C3FDA452A022EC1007DBF75 /* DetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FDA442A022EC1007DBF75 /* DetailHeader.swift */; };
+		3C3FDA472A023DBE007DBF75 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FDA462A023DBE007DBF75 /* LinkView.swift */; };
+		3C3FDA492A0242DB007DBF75 /* NutrientsListBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FDA482A0242DB007DBF75 /* NutrientsListBox.swift */; };
 		3C3FE1822A00E0B100A1EF6D /* FruitsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FE1812A00E0B100A1EF6D /* FruitsAppApp.swift */; };
 		3C3FE1842A00E0B100A1EF6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FE1832A00E0B100A1EF6D /* ContentView.swift */; };
 		3C3FE1862A00E0B300A1EF6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3FE1852A00E0B300A1EF6D /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C3FDA422A022331007DBF75 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		3C3FDA442A022EC1007DBF75 /* DetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeader.swift; sourceTree = "<group>"; };
+		3C3FDA462A023DBE007DBF75 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		3C3FDA482A0242DB007DBF75 /* NutrientsListBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientsListBox.swift; sourceTree = "<group>"; };
 		3C3FE17E2A00E0B100A1EF6D /* FruitsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3FE1812A00E0B100A1EF6D /* FruitsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsAppApp.swift; sourceTree = "<group>"; };
 		3C3FE1832A00E0B100A1EF6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +97,7 @@
 				3C3FE1812A00E0B100A1EF6D /* FruitsAppApp.swift */,
 				3C3FE1832A00E0B100A1EF6D /* ContentView.swift */,
 				3C3FE1962A01166600A1EF6D /* OnBoardingView.swift */,
+				3C3FDA422A022331007DBF75 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -97,8 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				3C3FE1922A00EFBB00A1EF6D /* FruitCardView.swift */,
-				3C3FE1942A00FD4900A1EF6D /* CustomBtn.swift */,
 				3C3FE19F2A0148EF00A1EF6D /* FruitRowView.swift */,
+				3C3FDA442A022EC1007DBF75 /* DetailHeader.swift */,
+				3C3FE1942A00FD4900A1EF6D /* CustomBtn.swift */,
+				3C3FDA462A023DBE007DBF75 /* LinkView.swift */,
+				3C3FDA482A0242DB007DBF75 /* NutrientsListBox.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,11 +203,15 @@
 			files = (
 				3C3FE1932A00EFBB00A1EF6D /* FruitCardView.swift in Sources */,
 				3C3FE1952A00FD4900A1EF6D /* CustomBtn.swift in Sources */,
+				3C3FDA492A0242DB007DBF75 /* NutrientsListBox.swift in Sources */,
 				3C3FE1A02A0148EF00A1EF6D /* FruitRowView.swift in Sources */,
+				3C3FDA452A022EC1007DBF75 /* DetailHeader.swift in Sources */,
 				3C3FE19A2A011EBB00A1EF6D /* FruitModal.swift in Sources */,
+				3C3FDA432A022331007DBF75 /* FruitDetailView.swift in Sources */,
 				3C3FE1842A00E0B100A1EF6D /* ContentView.swift in Sources */,
 				3C3FE19D2A01237A00A1EF6D /* FrutiData.swift in Sources */,
 				3C3FE1972A01166600A1EF6D /* OnBoardingView.swift in Sources */,
+				3C3FDA472A023DBE007DBF75 /* LinkView.swift in Sources */,
 				3C3FE1822A00E0B100A1EF6D /* FruitsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

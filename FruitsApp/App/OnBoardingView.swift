@@ -21,6 +21,7 @@ struct OnBoardingView: View {
             }
         }//end tabview
        .tabViewStyle(.page)
+       .ignoresSafeArea()
         
     }
     

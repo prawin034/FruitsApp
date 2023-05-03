@@ -16,12 +16,16 @@ struct ContentView: View {
             
             List {
                 ForEach(fruits){item in
+                    NavigationLink(destination: FruitDetailView(fruit: item)) {
+                        FruitRowView(fruit: item)
+                    }
                     
-                    FruitRowView(fruit: item)
+                   
                 }
+               
             }
             .listStyle(GroupedListStyle())
-            
+           
             
             .navigationTitle("Fruits Row View")
             .navigationBarTitleDisplayMode(.inline)
