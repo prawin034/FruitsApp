@@ -28,6 +28,7 @@ struct FruitRowView: View {
                 .cornerRadius(12)
                 .padding()
             Spacer()
+           
             
             
             HStack {
@@ -35,6 +36,7 @@ struct FruitRowView: View {
                     Text(fruit.title)
                         .font(.headline)
                         .fontWeight(.bold)
+                    
                   
                     Text(fruit.headline)
                         .font(.caption)
@@ -45,6 +47,8 @@ struct FruitRowView: View {
             Spacer()
             
         }//MARK: END HSTACK
+        
+        
     }
     
     //MARK: FUNCTIONS
@@ -55,6 +59,6 @@ struct FruitRowView_Previews: PreviewProvider {
     static var previews: some View {
         FruitRowView(fruit: fruitData[2])
             .previewLayout(.sizeThatFits)
-            .padding()
+            
     }
 }

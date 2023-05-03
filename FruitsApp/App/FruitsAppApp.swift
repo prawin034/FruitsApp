@@ -16,8 +16,11 @@ struct FruitsAppApp: App {
            
             if isOnBoarding {
                 OnBoardingView()
+                    .preferredColorScheme(.light)
+                    
             }else {
                 ContentView()
+                    .preferredColorScheme(.dark)
             }
         }
     }
